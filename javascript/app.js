@@ -18,6 +18,17 @@ $(document).ready(function(){
 	var firstTrain = "";
 	var frequency = 0;
 
+	//Show and Hide Form Button
+	$("#formButton").on("click", function() {
+		$("#addTrainForm").slideToggle();
+		if($("#formButton").text().startsWith("Hide")) {
+			$("#formButton").text("Show Form");
+		}
+		else {
+			$("formButton").text("Hide Form");
+		};
+	});
+
 	//Form Submit Button Clicked
 	$("#addTrain").on("click", function(event){
 		event.preventDefault();

@@ -1,0 +1,19 @@
+body {
+	background-color: #0d1a26;
+}
+
+.jumbotron {
+	background-color: #fffff0;
+	text-align: center;
+	color: #0d1a26;
+	font-family: "Times New Roman", serif;
+}
+
+#quote {
+	font-style: italic;
+}
+
+.panel-title {
+	font-size: 22px;
+	font-weight: bold
+}
