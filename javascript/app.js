@@ -25,7 +25,7 @@ $(document).ready(function(){
 			$("#formButton").text("Show Form");
 		}
 		else {
-			$("formButton").text("Hide Form");
+			$("#formButton").text("Hide Form");
 		};
 	});
 
